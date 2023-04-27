@@ -15,7 +15,6 @@
 -NO SE PUEDEN redefinir
 -Solo pueden almacenar valores escalares(enteros,booleanos,strings, etc) valores que no 
 se puedan reducir en partes mas pequeñas como un array*/
-
     
 //el true nos permite modidificar el valor y que no diferencia entre minusculas y mayusculas
 define("AUTOR","Juan",true);

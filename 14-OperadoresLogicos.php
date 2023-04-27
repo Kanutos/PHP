@@ -15,8 +15,8 @@
 
     if($resultado ==true){
         echo"Correcto";
-
-    }else{
+ 
+    }else {
         echo"Incorrecto";
     }
 ?>

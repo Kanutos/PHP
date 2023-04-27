@@ -18,10 +18,6 @@
     echo" El numero es: " . $num2;
     echo" El numero es: " . $num3;
     echo" El numero es: " .  round($num4,2);//el segundo parametro = nºdecimales
-
-
-
-
 ?>
 </body>
 </html>

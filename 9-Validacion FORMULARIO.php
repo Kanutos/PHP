@@ -35,5 +35,4 @@ if(isset($_POST["enviando"])){
         echo"<p class=\"no_validado\">". "No Puedes entrar" . "</p>";
     }
 }
-
 ?>

@@ -2,8 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>OPERADORES MATEMATICOS</title>
-   
+    <title>OPERADORES MATEMATICOS</title>  
 </head>
 
 <body>

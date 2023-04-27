@@ -31,7 +31,7 @@ if(isset($_POST["enviando"]))
         echo "<p class='validado'>Puedes entrar</p>";
 
     }else{
-
+  
         echo"<p class=\"no_validado\">". "No Puedes entrar" . "</p>";
     }*/
     //SINTAXIS Condicion ? Valor si verdadero: Valor si falso, sirven para condicionales de cierto falso

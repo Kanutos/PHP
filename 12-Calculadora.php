@@ -1,5 +1,4 @@
 <style>
-
     .resultado{
         color: #F00;
         font-weight: bold;
@@ -12,7 +11,6 @@
         $numero1=$_POST["num1"];
         $numero2=$_POST["num2"];
         $operacion=$_POST["operacion"];
-      
         calcular($operacion);
      }/*fuera de este ambito las variables definidas arriba no son visibles por eso 
      las declaramos como globales*/
