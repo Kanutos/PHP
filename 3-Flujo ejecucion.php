@@ -2,12 +2,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>FLUJO DE EJECUCION EN EL PROGRAMA</title>
 </head>
 
 <body>
-<?php
-?>
 
 <?php
 /*El flujo de ejecucion siempre va de arriba abajo, es importante cuando entran en juego estructuras que rompen con el lujo de 
