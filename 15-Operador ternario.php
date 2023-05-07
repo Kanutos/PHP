@@ -34,7 +34,7 @@ if(isset($_POST["enviando"]))
   
         echo"<p class=\"no_validado\">". "No Puedes entrar" . "</p>";
     }*/
-    //SINTAXIS Condicion ? Valor si verdadero: Valor si falso, sirven para condicionales de cierto falso
+    //SINTAXIS= Condicion ? Valor si verdadero: Valor si falso, sirven para condicionales de cierto falso
     $rsultado = $edad<18 ? "Eres menor de edad. No puedes acceder" : "puedes acceder";
     $resultado = $nombre == "Juan" && $contra =="1234" ? "Puedes acceder" : "No puedes acceder";
     echo $resultado
