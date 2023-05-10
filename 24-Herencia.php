@@ -1,19 +1,10 @@
-<html>
-   <!--Usamos la palabra extends para la herencia, php no tolera la herencia multiple
- --> 
-<head>
-    <meta charset="utf-8">
-    <title>HERENCIA</title>
-</head>
-<body>
+<!--Usamos la palabra extends para la herencia, php no tolera la herencia multiple--> 
 <?php
 //clase
     class Coche{
 //propiedades
-        var $ruedas;
-
+        protected $ruedas;//protected es un modificador para que las clases que heredan de esta, puedas acceder a sus propiedas
         var $color;
-
         var $motor;
         function Coche(){//metodo constructor para el estado inicial
 // con el $this hacemos referencia a la propia clase, como su pusiera coche
@@ -22,7 +13,14 @@
             $this->color="";
 
         }
+        function get_motor(){
+            return $this->motor;
+        }
+        function get_ruedas(){
+            return $this->ruedas;
+        }
 
+        function set_color
         function arrancar(){
             echo "estoy arrancando<br>";
         }
@@ -32,10 +30,11 @@
         function frenar(){
             echo "estoy frenando<br";
         }
-        function establece_color($color_coche){
-            $this->color=$color_coche;
-            echo"el color es " . $this->color . "<br>";
+        function set_color($color_coche, $nombre_coche){
 
+            $this->color=$color_coche;
+
+            echo"el color es " . $this->color . "<br>";
         }
 
     }
@@ -57,5 +56,3 @@ class Camion extends Coche{
     
         }
 ?>
-</body>
-</html>
