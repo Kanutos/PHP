@@ -25,9 +25,9 @@
 
 static function descuento_ayuda(){//ejemplo haciendolo atraves de funcion
 
-    if(date("m-d-y")>"05-01-23"){//formato fecha
+    if(date("m-d-y")> "05-01-23"){//formato fecha
 
-    self::$ayuda=4500;}
+    self::$ayuda=4500;
 }
 
 function climatizador(){
