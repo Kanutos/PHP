@@ -6,7 +6,7 @@
         private $precio_base;
 
         private static $ayuda=4500;//private impide modificar desde fuera
-    
+    }
     function Compra_vehiculo($gama){
 
     if($gama =="urbano"){
@@ -15,11 +15,11 @@
 
     }else if ($gama=="compacto"){
 
-             $this->precio_base=20000
+             $this->precio_base=20000;
 
     }else if ($gama=="berlina"){
 
-             $this->precio_base=40000
+             $this->precio_base=40000;
     }
 }//fin del constructor
 

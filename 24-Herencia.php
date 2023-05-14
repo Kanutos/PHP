@@ -19,8 +19,6 @@
         function get_ruedas(){
             return $this->ruedas;
         }
-
-        function set_color
         function arrancar(){
             echo "estoy arrancando<br>";
         }
