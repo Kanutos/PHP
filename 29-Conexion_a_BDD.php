@@ -15,7 +15,7 @@
     $conexion=mysqli_connect($db_host,$db_usuario,$db_contraseña,$db_nombre)
 
 //creamos una variable para realizar la consulta
-       $consulta="SELECT * FROM pokemon";
+       $consulta="SELECT * FROM pokemon WHERE altura=>10";
 
 //para ejecutar la consulta,resultset es como una tabla virtual en memoria, donde carga lo que nos devuelve la consulta
        $resultado= mysqli_query($conexion,$consulta);
